@@ -2,7 +2,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 import numpy
 import os
-import theano
+import TheanoCode
 # theano.config.device = 'gpu'
 
 seed = 7

@@ -1,12 +1,12 @@
-import theano
-from theano import tensor
+import TheanoCode
+from TheanoCode import tensor
 
 a = tensor.dscalar()
 b = tensor.dscalar()
 
 c = a + b
 
-f = theano.function([a, b], c)
+f = TheanoCode.function([a, b], c)
 
 result = f(10, 20)
 
